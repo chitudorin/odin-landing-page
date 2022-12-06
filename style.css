@@ -10,6 +10,65 @@ body > div {
   /* border: 1px solid red; */
 }
 
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 250px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.link-list {
+  color:#e5e7eb;
+  display: flex;
+  gap: 10px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.hero-text{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.hero-text > h1{
+  margin-bottom: -10px;
+}
+
+.hero-text > button{
+  width: 30%;
+}
+
+.image-placeholder{
+  background-color: gray;
+  margin-left: auto;
+  padding: 75px 100px;
+}
+
 .section-2 {
   display: flex;
   flex-direction: column;
